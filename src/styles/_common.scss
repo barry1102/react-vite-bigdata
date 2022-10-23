@@ -1,0 +1,51 @@
+// global variables
+// -------- Colors -----------
+
+// *** rewrite ant style ***/
+.ant-layout-content {
+    .ant-form {
+        //width: 80%;
+        //margin: 0 auto;
+        //transform: translateX(-20%);
+        .ant-form-item-control-input {
+            width: 200px;
+        }
+    }
+}
+.sec-container {
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+}
+
+// *** 通用的margin ***/
+.mb_10 {
+    margin-bottom: 10px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.dis-flex {
+    display: flex;
+}
+.dis-inline {
+    display: inline-block;
+}
+.clearfix {
+    &:after {
+        clear: both;
+        content: ' ';
+        display: block;
+        font-size: 0;
+        height: 0;
+        visibility: hidden;
+    }
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
